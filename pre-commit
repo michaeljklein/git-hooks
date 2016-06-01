@@ -1,0 +1,6 @@
+#!/bin/sh
+
+exec cloc . | tee stats.txt
+
+exec tree . | tee tree.txt
+
